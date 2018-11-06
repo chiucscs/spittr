@@ -6,7 +6,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import spittr.Spittle;
 import spittr.data.SpittleRespository;
+
+import java.util.List;
+
 
 @Controller
 @RequestMapping({"/spittles", "/Spittles"})
@@ -25,4 +29,6 @@ public class SpittleController {
         );
         return "spittles";
     }
+    /*
+     */
 }
